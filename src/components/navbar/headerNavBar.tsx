@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import '/public/assets/css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '/assets/css/main.css';
 const HeaderNavbar = () => {
   return (
     <header id="header" className="header d-flex align-items-center">
