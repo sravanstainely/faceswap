@@ -11,7 +11,7 @@ const Banner = () => {
       </ul>
       <div className="row align-items-center">
         <div className="col-xl-5 col-lg-6">
-          <div className="item-img position-relative">
+          <div className="item-img position-relative flex">
             <Image className="wow fadeInUp animated animated" data-wow-delay=".1s" data-wow-duration="1s" width={500} height={500} src={"https://www.radiustheme.com/demo/wordpress/themes/sasby/wp-content/themes/sasby//assets/img/iPhone-1.png"} alt={"iphone"} style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.1s', animationName: 'fadeInUp'}} />
             <div className="small-img">
               <Image className="wow fadeInUp animated animated" data-wow-delay=".4s" data-wow-duration="1s" width={500} height={500} src={"https://www.radiustheme.com/demo/wordpress/themes/sasby/wp-content/themes/sasby//assets/img/iPhone-2.png"} alt={"iphone"} style={{visibility: 'visible', animationDuration: '1s', animationDelay: '0.4s',animationName: 'fadeInUp'}} />
@@ -23,7 +23,7 @@ const Banner = () => {
             <div className="text-box">
             <p className="mb-0">READY TO GET STARTED?</p>
             <h2 className="heading-title">Helping people organise online businesses</h2>
-            <div className="button-list mt-3 mt-lg-0">
+            <div className="button-list mt-3 mt-lg-0 flex">
               <Image src={"/assets/img/googleplay.png"} className="img-fluid" width={200} height={200} alt=""/>
               <Image src={"/assets/img/appstore.png"} className="img-fluid" width={200} height={200} alt="" style={{ marginLeft:'10px'}}/>
             </div>

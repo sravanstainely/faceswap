@@ -109,13 +109,13 @@ const handleDownload = () => {
         <Modal.Body>
           <div className="text-center">
          
-            <div style = {{width:'400px',height:'400px'}}>
+            <div >
 
               <App catfoldername={catfoldername} catimagename={catimagename} onDataReceived={handleDataReceived}/>
             </div>
             <div className="flex justify-center gap-4">
               <Button
-                color="gray"
+                className="btn btn-secondary"
                 onClick={()=>{setOpenImageModal(false)}}
               >
                 No, cancel
@@ -129,5 +129,3 @@ const handleDownload = () => {
   );
  
 }
-
-

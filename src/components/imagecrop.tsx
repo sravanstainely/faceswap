@@ -207,7 +207,7 @@ const callapi = (formData :any,apiUrl:string)=>{
     [completedCrop, scale, rotate],
   )
   return (
-    <div className="App">
+    <div className="App flex">
       <div className="Crop-Controls ">
         <input type="file" name='uploadedImg' accept="image/*" onChange={onSelectFile} />
        
@@ -240,7 +240,7 @@ const callapi = (formData :any,apiUrl:string)=>{
               ref={imgRef}
               alt="Crop me"
               src={imgSrc}
-              style={{ transform: `scale(${scale}) rotate(${rotate}deg)`} }
+              style={{ transform: `scale(${scale}) rotate(${rotate}deg)`,width :'100%'} }
             />
             
           </ReactCrop>
