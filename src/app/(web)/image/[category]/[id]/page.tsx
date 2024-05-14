@@ -49,7 +49,7 @@ const handleFileUpload = (target: HTMLInputElement) => {
     formData.append('destImage','');
     
   }
-  const apiUrl = 'http://216.48.189.156:9033/upload/'+catfoldername+'/'+catimagename+'?app_name=NaturePhotoFramesandEditor';
+  const apiUrl = '//216.48.189.156:9033/upload/'+catfoldername+'/'+catimagename+'?app_name=NaturePhotoFramesandEditor';
   const response = Usepostimageupload(apiUrl,formData);
 };
 const handleDownload = () => {
